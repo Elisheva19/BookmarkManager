@@ -12,6 +12,7 @@ const [formData, setFormData]= useState({title:'',id:''});
 
 const onCancelClick=()=>{
     setEdit(false)
+    setFormData({ title: '', id: '' })
 
 }
 const onEditClick=()=>{
